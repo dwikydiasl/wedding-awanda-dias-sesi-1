@@ -4,6 +4,7 @@
 	<title>The Wedding</title>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
+	<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="assets/ring.png">
 	<!-- Bootstrap CSS -->
@@ -190,7 +191,7 @@
 							<img src="assets/calender.png" class="img-schedule">
 							<h5 class="mb-3 mt-4 title-schedule">Reception</h5>
 							<p class="desc-schedule">
-								20 November 2021 <br>
+								<span class="date">20</span><span class="month"> Nov</span> <span  class="year"> 2021</span> <br>
 								10.00 AM - 11.00 AM
 							</p>
 						</div>
@@ -432,7 +433,7 @@
 						<form  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8SFm2buO6rj8TstQTbboKMSl8VDs9WxMLOGaGoPCl1gosjA/formResponse"  method="post" target="hidden_iframe"
 						onsubmit="submitted=true;">
 						<div class="form-row">
-							<label class="title-form">Name *</label>
+							<label class="title-form">Nama *</label>
 							<input name="entry.1647504127" type="text" required="" />
 						</div>
 
@@ -457,7 +458,7 @@
 						<br>
 						<div class="form-row">
 							<label class="title-form">Jumlah yang akan hadir</label>
-							<span class="" style="text-align: left;">Isi jika menghadiri acara</span>
+							<span class="" style="text-align: left;    font-size: 12px;">Isi jika menghadiri acara</span>
 							<input name="entry.88397802" type="number" min="0"   />
 						</div>
 						<div style="text-align: left;">* Wajib diisi</div>
@@ -504,6 +505,7 @@
 						<li>
 							<a href="#gallery">Gallery <span><i class="fas fa-camera-retro"></i></span></a>
 						</li>
+						
 					</ul>
 				</div>
 			</div>
